@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.containerr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   margin-top: -10px;
+}   
+
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: #ffffff;
+    margin-top: -10px;
+    overflow-x: hidden;
+}
+
+
+.nav-link{
+    margin-bottom: 15px;
+}
+
+.navbar-nav{
+    margin-top: -10px;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: none;
+    margin-bottom: 15px;
+color: #fff;
+}
+
+
+.welcome{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 20px;
+    margin-left: 0;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: none;
+    border: none;
+}
+
+
+.Join{
+    font-size: small;
+   border-radius: 200px;
+   padding-left: 15px;
+    padding-right: 15px;
+    background-color: #8a22b9 ;
+    color: white;
+    border: none;
+    margin-left: 75px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   
+    transition: background-color 0.3s ease; 
+}
+
+.Join:hover {
+
+    background-color: #57167a;
+    color: white;
+}
+
+
+
+
+
+.navbar {
+    background-color: #8a22b9;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    
+}
+
+.container-fluid {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.card1{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: #f0f0f0;
+
+background: linear-gradient(to bottom, #4a01aa, #05031A);
+
+
+}
+
+
+.best{
+background-color: #fffb1c;
+color: purple ;
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 12px;
+    margin-left: 78px;
+}
+
+
+.plus{
+    font-weight: 300;
+}
+
+
+.sub2 {
+    font-weight: 300;
+}
+
+.price2{
+    color: #580ab1;
+    font-weight: 600;
+    font-size: 30px;
+}   
+
+
+.learn{
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-right: 65px;
+}
+
+.card-text{
+    margin-top: 35px;
+}
+
+
+.btn1{
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #f6f3f8;
+    color: #ac0dac;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.slide-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.btn2{
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #4c047c;
+    color: #fcf9fc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+
+.fh{
+color: #000000;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.pp{
+    margin-bottom: 30px;
+}
+
+.para{
+     margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.btn3{
+
+ text-decoration: none;
+    background-color: #4c047c;
+    color: #fcf9fc;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.sub{
+    margin-right: 43px;
+}
+
+
+.learn2{
+    color: #850985;
+    margin-right: 70px;
+}
+
+.btn1:hover {
+    background-color: #57167a;
+    color: #fff;
+}
+
+.sub .space{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 20px;
+}
+
+
+
+
+
+.price{
+    color: #fffb1b;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+footer {
+    background-color: #8a22b9;
+    color: #fff;
+    padding: 32px;
+    border: none;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+footer a,
+footer .nav-link,
+footer .text-body-secondary {
+    color: #fff !important;
+}
+
+footer .nav-link:hover {
+    text-decoration: underline;
+    color: #fffb1b !important;
+}
+
+
+/* Remove outline from navbar and toggler */
+.navbar,
+.navbar:focus,
+.navbar:active,
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #8a22b9;
+    border-radius: 50%;
+    background-size: 60% 60%;
+    width: 2.5rem;
+    height: 2.5rem;
+    filter: none;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: none;
+    top: 35%; /* Move arrows higher (default is 50%) */
+    bottom: auto;
+    transform: translateY(-35%);
+}
+
+.row.g-4.py-5.row-cols-1.row-cols-lg-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Center all features horizontally and their content */
+.features-row, .features-container, .features-wrapper, .features-section, .features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.feature{
+    margin-top: -30px;
+}
+
+
+.fs2{
+    font-size: 30px;
+    font-weight: 00;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* If your features are inside a Bootstrap row, target it directly */
+.row.feature, .row.features, .row.g-4, .row {
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+}
+
+/* Center the feature col content */
+.feature.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+body {
+   
+    background-color: #f6f3f8;
+}
+
+.membership {
+    background: #f6f3f8;
+    padding: 40px 0;
+    border-radius: 16px;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+/* Make slide text and button smaller and ensure visibility */
+.carousel-item .fh {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.carousel-item .pp {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.carousel-item .btn3 {
+    font-size: 13px;
+    padding: 8px 24px;
+    margin-bottom: 16px;
+    margin-top: 0;
+    display: inline-block;
+    /* Ensure button is visible */
+    position: relative;
+    z-index: 2;
+    max-width: 90%;
+    white-space: normal;
+}
+
+.About {
+    color: #57167a;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.about{
+    font-weight: 600;
+    margin-top: 45px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+
+.ABOUTimg{
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+}
+
+.aboutP, .aboutp2 {
+    font-size: 18px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    margin-left: 25px;
+}
+
+.read{
+    color: #8a22b9;
+}
+
+.ABOUTimg2 {
+   margin-top: 100px;
+    margin-bottom: 30px;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Add this where you want the card to appear */
+.membership-card {
+    background: linear-gradient(120deg, #8d0692 0%, #2d0b5c 100%);
+    border-radius: 24px;
+    padding: 20px 12px 24px 12px;
+    max-width: 340px;
+    margin: 24px auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    box-shadow: 0 2px 12px rgba(44,0,80,0.08);
+}
+
+.membership-title {
+    margin-bottom: 18px;
+}
+
+.fitness-journey {
+    display: block;
+    font-family: 'Poppins', 'Barlow', Arial, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.starts-here {
+    display: block;
+    font-family: 'Poppins', 'Barlow', Arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: #fffb1b;
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.membership-btn {
+    display: block;
+    margin: 0 auto;
+    background: #fff;
+    color: #7a2ca6;
+    font-family: 'Poppins', 'Barlow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 999px;
+    padding: 10px 0;
+    width: 85%;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 1px 4px rgba(44,0,80,0.06);
+    transition: background 0.2s, color 0.2s;
+    border: none;
+}
+
+.membership-btn:hover {
+    background: #f6f3f8;
+    color: #4c047c;
+}
+
+.now-purple {
+    color: #8a22b9;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.instagram svg {
+    width: 48px !important;
+    height: 48px !important;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.benefit-card {
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 4px 24px rgba(138,34,185,0.10);
+    background: linear-gradient(135deg, #f6f3f8 60%, #e9d8fa 100%);
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+.benefit-card::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #8a22b9 0%, #f6f3f8 80%);
+    opacity: 0.12;
+    z-index: 0;
+}
+.benefit-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgba(138,34,185,0.18);
+    background: linear-gradient(135deg, #e9d8fa 40%, #f6f3f8 100%);
+}
+.benefit-card .card-body {
+    position: relative;
+    z-index: 1;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.benefit-card .card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    letter-spacing: 1px;
+}
+.benefit-card .card-text {
+    font-size: 1rem;
+    color: #4c047c;
+    font-weight: 400;
+}
+.benefit-card .card-img-top {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin: 0 auto 1rem auto;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(138,34,185,0.10);
+    border: 2px solid #e9d8fa;
+    position: relative;
+    z-index: 2;
+}
+
+.card1, .card {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.card1 .btn1,
+.card .btn2,
+.card1 .learn,
+.card .learn2 {
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* Stylish email/contact form */
+form[action*="formsubmit"] {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(44,11,92,0.10);
+  padding: 32px 24px 24px 24px;
+  margin-bottom: 32px;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+form[action*="formsubmit"] input[type="text"],
+form[action*="formsubmit"] input[type="email"] {
+  border: 1.5px solid #8a22b9;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-family: 'Barlow', 'Poppins', Arial, sans-serif;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+  margin-bottom: 8px;
+}
+
+form[action*="formsubmit"] input[type="text"]:focus,
+form[action*="formsubmit"] input[type="email"]:focus {
+  border: 1.5px solid #4B1799;
+  background: #f7f3ff;
+}
+
+form[action*="formsubmit"] button[type="submit"] {
+  background: #8a22b9;
+  color: #fff;
+  font-family: 'Barlow', 'Poppins', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  border: none;
+  border-radius: 24px;
+  padding: 10px 0;
+  margin-top: 10px;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(44,11,92,0.08);
+  cursor: pointer;
+}
+
+/* Stylish and Responsive Footer */
+.footer {
+  background: #f0edf7;
+  padding: 32px 0 18px 0;
+  color: #1a2341;
+  font-family: 'Barlow', 'Poppins', Arial, sans-serif;
+}
+
+.footer .footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 0 24px;
+}
+
+.footer .footer-section {
+  flex: 1 1 200px;
+  min-width: 180px;
+  margin-bottom: 18px;
+}
+
+.footer .footer-logo {
+  max-width: 90px;
+  margin-bottom: 12px;
+}
+
+.footer .footer-title {
+  font-weight: 700;
+  color: #4B1799;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.footer a {
+  color: #1a2341;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.2s;
+}
+
+.footer a:hover {
+  color: #8a22b9;
+}
+
+
+.footer .footer-bottom {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1.5px solid #e5d6fa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  .footer .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 0 8px;
+  }
+  .footer .footer-section {
+    min-width: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+form[action*="formsubmit"] button[type="submit"]:hover,
+form[action*="formsubmit"] button[type="submit"]:focus {
+  background: #4B1799;
+}
+
+/* Responsive Navbar for Small Phones */
+
+/* Make the hamburger (navbar-toggler-icon) small */

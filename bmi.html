@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+#joinNowBtn {
+  font-size: small;
+   border-radius: 200px;
+   padding-left: 25px;
+    padding-right: 25px;
+    background-color: #8a22b9 ;
+    color: white;
+    border: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+   
+    transition: background-color 0.3s ease; 
+}
+
+#joinNowBtn:hover,
+#joinNowBtn:focus {
+   background-color: #57167a;
+    color: white;
+}
+
+/* Footer container: left-aligned columns */
+.footer .footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;   /* Align columns to the left */
+  align-items: flex-start;
+  gap: 48px;
+  padding: 0 24px;
+}
+
+.footer .footer-section {
+  flex: 1 1 200px;
+  min-width: 180px;
+  margin-bottom: 18px;
+  text-align: left;              /* Left align all content */
+}
+
+.footer .footer-logo {
+  max-width: 90px;
+  margin-bottom: 12px;
+}
+
+.footer .footer-title {
+  font-weight: 700;
+  color: #4B1799;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.footer a {
+  color: #1a2341;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.2s;
+  text-align: left;              /* Ensure links are left-aligned */
+  padding-left: 0;
+}
+
+.footer a:hover {
+  color: #8a22b9;
+}
+
+.footer .footer-bottom {
+  text-align: left;
+  color: #888;
+  font-size: 0.95rem;
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1.5px solid #e5d6fa;
+}
+
+/* Responsive: stack sections but keep left alignment */
+@media (max-width: 700px) {
+  .footer .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    padding: 0 8px;
+  }
+  .footer .footer-section {
+    min-width: 0;
+    width: 100%;
+    text-align: left;
+  }
+  .footer .footer-bottom {
+    text-align: left;
+  }
+}
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid">
+    <img class="logo" src="./src/UPRising__1_-removebg-preview.png" alt="Uprising Logo">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./Home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./AboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./ContactUs.html">Contact Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            More
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./gallery.html">Gallery</a></li>
+            <li><a class="dropdown-item" href="#">Membership</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- BMI Calculator Interface (Height in Feet Only, Increased Height) -->
+<div class="container" style="max-width:400px; margin:40px auto; padding:0;">
+  <div class="card bmi-card" style="border-radius:22px; box-shadow:0 4px 24px rgba(44,11,92,0.10); overflow:hidden; min-height:420px;">
+    <div class="card-body" style="padding:40px 20px 36px 20px; text-align:center; min-height:340px;">
+      <h3 style="font-family:'Barlow','Poppins',Arial,sans-serif; font-weight:700; color:#4B1799; margin-bottom:24px;">
+        BMI Calculator
+      </h3>
+      <form id="bmiForm" style="display:flex; flex-direction:column; gap:24px;">
+        <input type="text" id="heightFeet" class="form-control" placeholder="Height (e.g. 5,8)" required pattern="^\d{1,2},\d{1,2}$" style="border-radius:12px; border:1.5px solid #8a22b9; padding:14px 14px;">
+        <input type="number" id="weight" class="form-control" placeholder="Weight (kg)" required min="10" max="300" style="border-radius:12px; border:1.5px solid #8a22b9; padding:14px 14px;">
+        <button type="submit" class="btn btn-primary" style="background:#8a22b9; border:none; border-radius:24px; padding:14px 0; font-size:1.1rem; font-family:'Barlow','Poppins',Arial,sans-serif; font-weight:600;">
+          Calculate BMI
+        </button>
+      </form>
+      <div id="bmiResult" style="margin-top:28px; font-family:'Barlow','Poppins',Arial,sans-serif; font-size:1.15rem; color:#1a2341; min-height:48px;"></div>
+      <a class="joinNowBtn" href="ContactUs.html" id="joinNowBtn" style="display:none; text-decoration:none; font-family:'Barlow','Poppins',Arial,sans-serif; text-align: center; margin-top: 18px;">
+        Join Now
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+document.getElementById('bmiForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const heightInput = document.getElementById('heightFeet').value.trim();
+  const [feet, inches] = heightInput.split(',').map(Number);
+  const weight = parseFloat(document.getElementById('weight').value);
+  const joinBtn = document.getElementById('joinNowBtn');
+  if (!isNaN(feet) && !isNaN(inches) && weight > 0) {
+    const heightMeters = ((feet * 12) + inches) * 0.0254;
+    const bmi = weight / (heightMeters * heightMeters);
+    let info = '';
+    let thrive = '';
+    if (bmi < 18.5) {
+      thrive = "🥗 Looks like you're underweight--Let’s build a stronger, healthier you.";
+    } else if (bmi < 25) {
+      thrive = "✅ Normal weight --- That’s just the start. Let’s take your fitness to the next level!";
+    } else if (bmi < 30) {
+      thrive = "⚠️ Overweight --- but Your goals are within reach. The hardest part is starting — and you've already done that 🌟.";
+    }
+    document.getElementById('bmiResult').innerHTML = 
+      `Your BMI is <strong>${bmi.toFixed(1)}</strong><br>
+      <span style="color:#e67e22;font-weight:500;">${info}</span><br>
+      <span style="color:#8a22b9;font-weight:600;">${thrive}</span>`;
+    joinBtn.style.display = "inline-block";
+  } else {
+    document.getElementById('bmiResult').textContent = 'Please enter height as feet,inches (e.g. 5,8) and a valid weight.';
+    joinBtn.style.display = "none";
+  }
+});
+</script>
+
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background:#5f0268; border-radius:0 0 18px 18px;">
+    <p class="col-md-4 mb-0" style="color:#e5d6fa;">© 2025 UPRISING AGENCY</p>
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none" aria-label="Uprising">
+      <img src="./src/UPRising__1_-removebg-preview.png" alt="UPRISING AGENCY" style="width:40px; height:40px; border-radius:50%; background:#fff;">
+    </a>
+    <ul class="nav col-md-4 justify-content-start">
+      <li class="nav-item"><a href="Home.html" class="nav-link px-2" style="color:#8a22b9;">Home</a></li>
+      <li class="nav-item"><a href="AboutUs.html" class="nav-link px-2" style="color:#8a22b9;">About Us</a></li>
+      <li class="nav-item"><a href="gallery.html" class="nav-link px-2" style="color:#8a22b9;">Gallery</a></li>
+      <li class="nav-item"><a href="pricing.html" class="nav-link px-2" style="color:#8a22b9;">Pricing</a></li>
+      <li class="nav-item"><a href="bmi.html" class="nav-link px-2" style="color:#8a22b9;">BMI Calculator</a></li>
+    </ul>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
